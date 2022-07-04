@@ -146,4 +146,12 @@ img {
     .row > .col:not(:last-child) {
         margin-bottom: 64px;
     }
+    .steps {
+        margin-bottom: 0;
+    }
+    .why-us {
+        padding: 48px 0;
+        margin-bottom: 0;
+        background-color: #222222;
+    }
 }
