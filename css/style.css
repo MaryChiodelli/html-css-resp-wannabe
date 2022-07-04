@@ -134,3 +134,16 @@ img {
         width: 100%;
     }
 }
+
+/* MOBILE */
+@media (max-width: 480px) {
+    .row {
+        flex-wrap: wrap;
+    }
+    .row > .col {
+        width: 100%;
+    }
+    .row > .col:not(:last-child) {
+        margin-bottom: 64px;
+    }
+}
